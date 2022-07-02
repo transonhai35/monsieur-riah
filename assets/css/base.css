@@ -1,0 +1,54 @@
+
+:root{
+    --primary-color:rgb(234,38,88);
+}
+
+*{
+
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+body{
+    margin: 0;
+}
+
+.whiteColor{
+    color: white;
+    cursor: pointer;
+}
+
+.grayColor{
+    cursor: pointer;
+
+    color: #555;
+    padding: 15px;
+}
+
+.control .active{
+    color: var(--primary-color);
+
+}
+
+.a-2{
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.control_btn{
+    color: #555;
+}
+
+.playlist .active{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.playlist_song:active{
+    opacity: .8;
+}

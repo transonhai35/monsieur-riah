@@ -28,7 +28,7 @@ body{
     padding: 15px;
 }
 
-.control .active{
+.active {
     color: var(--primary-color);
 
 }
